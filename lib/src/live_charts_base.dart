@@ -4,37 +4,7 @@
 import 'dart:async';
 import 'dart:html';
 
-class RgbColor {
-  final int r;
-  final int g;
-  final int b;
-  final num a;
-
-  const RgbColor(this.r, this.g, this.b, [this.a = 1]);
-
-  static final RgbColor BLACK = const RgbColor(0, 0, 0);
-  static final RgbColor WHITE = const RgbColor(255, 255, 255);
-}
-
-class LiveChartOptions {
-  String elementId;
-  num stepsPerSecond;
-  num stepWidth;
-  num minValue;
-  num maxValue;
-  RgbColor colorBackground;
-  RgbColor colorForeground;
-  num lineWidth;
-
-  LiveChartOptions(this.elementId,
-      {this.stepsPerSecond: 30,
-      this.stepWidth: 1,
-      this.minValue: 0,
-      this.maxValue: 100,
-      this.colorBackground: null,
-      this.colorForeground: const RgbColor(0, 0, 0),
-      this.lineWidth: 2});
-}
+import 'live_chart_options.dart';
 
 /// Chart for a live data feed
 class LiveChart {

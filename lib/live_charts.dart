@@ -7,5 +7,7 @@
 library live_charts;
 
 export 'src/live_charts_base.dart';
+export 'src/rgbcolor.dart';
+export 'src/live_chart_options.dart';
 
 // TODO: Export any libraries intended for clients of this package.
