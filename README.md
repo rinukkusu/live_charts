@@ -8,6 +8,7 @@ A simple usage example:
 
 ```dart
 import 'dart:math';
+import 'dart:async';
 import 'package:live_charts/live_charts.dart';
 
 main() {
@@ -15,7 +16,7 @@ main() {
   var chartOptions = new LiveChartOptions("wrapper");
 
   // create new chart
-  var chart = new LiveChart(options);
+  var chart = new LiveChart(chartOptions);
 
   // start drawing the chart
   chart.start();

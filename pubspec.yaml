@@ -1,8 +1,8 @@
 name: live_charts
 description: A library for creating live charts.
-version: 0.0.1
-#author: rinukkusu <rinukkusu@auen.land>
-#homepage: https://github.com/rinukkusu/live_charts
+version: 0.0.2
+author: rinukkusu <rinukkusu@auen.land>
+homepage: https://github.com/rinukkusu/live_charts
 
 environment:
   sdk: '>=1.0.0 <2.0.0'
